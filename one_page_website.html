@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+		<title>Cryptozoology: A Brief Rundown</title>
+		<link rel="stylesheet" href="CSS/one_page_website.css">
+		<link rel="stylesheet" href="CSS/one_page_website_animations.css">
+		<script src="JS/one_page_website.js"defer></script>
+    </head>
+    <body>
+		<div class="whole">
+        	<!--NAV-->
+        	<div class="wrap">
+				<div class="menu-container">
+					<ul class="menu">
+						<a href="#home" id="link"><li>HOME</li> </a>
+						<a href="#gallery" id="link"><li>GALLERY</li></a>
+						<a href="#contact" id="link"><li>Contact Us If <em>You</em> Have <strong>Evidence</strong></li></a>
+					<ul>
+				</div>
+			</div>
+        	<!--END NAV-->
+        	<!--HOME-->
+			<div id="home">
+				<div class="container">
+					<div class="text-center">
+						<span class ="head-main"> Cryptids | The Mystery Continues</span>
+					</div>
+				</div>
+				<h1>What is <em>Cryptozoology<em>?</h1>
+					<p>Cryptids are defined as an animal (such as Sasquatch or the Loch Ness Monster) that has been<br>
+					claimed to exist but never proven to exist Contrary to popular belief, cryptids don't have to be supernatural, mythical or even all that strange<br>
+					—though many popular creatures acquire these characteristics as their legends grow.—<br><br>
+				Therefore, Cryptozoology is the study of these Crytpids. Some attempt serious scientific research while others are a bit less than scientific.</p>
+			</div>
+        	<!--END HOME-->
+			<!--Images used to open the lightbox-->
+			<div class="row">
+				<div class="column">
+					<img src="cryptopics/bigfoot-1502134764.jpg" alt="bigfoot" width="300" height="300" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="cryptopics/chupacabra.jpg" width="300" height="300" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="cryptopics/kraken.jpg" width="300" height="300" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="cryptopics/lochnessmonster.jpg" width="300" height="300" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="cryptopics/mothman.png" width="300" height="300" onclick="openModal();currentSlide(5)" class="hover-shadow">
+				</div>
+				<div class="column">
+					<img src="cryptopics/Thunderbird.jfif" width="300" height="300" onclick="openModal();currentSlide(6)" class="hover-shadow">
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img src="cryptopics/Yeti_-_FB-C.png" width="300" height="300" onclick="openModal();currentSlide(7)" class="hover-shadow">
+				</div>
+			</div>
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class = "modal-content">
+
+					<div class="mySlides">
+						<div class="numbertext">1 / 7</div>
+						<img src="cryptopics/bigfoot-1502134764.jpg" style="width:100%">
+					</div>
+					<div class="mySlides">
+						<div class="numbertext">2 / 7</div>
+						<img src="cryptopics/chupacabra.jpg" style="width:100%">
+					</div>
+					<div class="mySlides">
+						<div class="numbertext">3 / 7</div>
+						<img src="cryptopics/kraken.jpg" style="width:100%">
+					</div>
+					<div class="mySlides">
+						<div class="numbertext">4 / 7</div>
+						<img src="cryptopics/lochnessmonster.jpg" style="width:100%">
+					</div>
+					<div class="mySlides">
+						<div class="numbertext">5 / 7</div>
+						<img src="cryptopics/mothman.png" style="width:100%">
+					</div>
+					<div class="mySlides">
+						<div class="numbertext">6 / 7</div>
+						<img src="cryptopics/Thunderbird.jfif" style="width:100%">
+					</div>
+					<div class="mySlides">
+						<div class="numbertext">7 / 7</div>
+						<img src="cryptopics/Yeti_-_FB-C.png" style="width:100%">
+					</div>
+					<!--Next/previous controls-->
+					<a class="prev" onclick="plusSlides(-1)">&#10094</a>
+					<a class="next" onclick="plusSlides (1)">&#10095</a>
+					<!--Caption text-->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+					<!--Thumbnail image controls-->
+					<div class="column">
+						<img class="demo" src="cryptopics/bigfoot-1502134764.jpg" onclick="currentSlide(1)" alt="Bigfoot">
+					</div>
+					<div class="column">
+						<img class="demo" src="cryptopics/chupacabra.jpg" onclick="currentSlide(1)" alt="Chupacabra">
+					</div>
+					<div class="column">
+						<img class="demo" src="cryptopics/kraken.jpg" onclick="currentSlide(1)" alt="Kraken">
+					</div>
+					<div class="column">
+						<img class="demo" src="cryptopics/lochnessmonster.jpg" onclick="currentSlide(1)" alt="Loch Ness Monster">
+					</div>
+					<div class="column">
+						<img class="demo" src="cryptopics/mothman.png" onclick="currentSlide(1)" alt="Mothman">
+					</div>
+					<div class="column">
+						<img class="demo" src="cryptopics/Thunderbird.jfif" onclick="currentSlide(1)" alt="Thunderbird">
+					</div>
+					<div class="column">
+						<img class="demo" src="cryptopics/Yeti_-_FB-C.png" onclick="currentSlide(1)" alt="Yeti">
+					</div>
+				</div>
+			</div>
+			<!--Clips-->
+			<section id="clips">
+				<div class="container">
+					<h1>Clips</h1>
+					<div class="flex-container">
+					   <!---------------PHOTO CONTAINER 1------------------>
+						<div class="photo-container">
+							<div class="photo">
+								<iframe width="500" height="500" src="https://www.youtube.com/embed/8CCksq7sOYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div class="photo-overlay">
+									
+								</div>
+							</div>
+						</div>
+						<!---------------END PHOTO CONTAINER 1------------------>
+						
+						<!-----------PHOTO CONTAINER 2----->
+						<div class="photo-container">
+							<div class="photo">
+								<iframe width="500" height="500" src="https://www.youtube.com/embed/2KNT-NWtWyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div class="photo-overlay">
+									
+								</div>
+							</div>
+						</div>
+						<!---------END OF PHOTO CONTAINER 2-------->
+						<div class="photo-container">
+							<div class="photo">
+								<iframe width="500" height="500" src="https://www.youtube.com/embed/cLkLJgE-P-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div class="photo-overlay">
+									
+								</div>
+							</div>
+						</div>
+	
+						<!-----------PHOTO CONTAINER 3-->
+						<div class="photo-container">
+							<div class="photo">
+								<iframe width="500" height="500" src="https://www.youtube.com/embed/qa5P1e19BRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<div class="photo-overlay">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+						
+		<!--END Clips-->
+        <!--Contact Form-->
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+        <section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Contact Us and Together We Can Shed Light On Cryptids</h1>
+					<div class="reservation">
+						<h2><span>The Truth Is Out There</span>
+							<br>Please Contact Us If You Have Evidence 
+						</h2>
+						<p class="rsvp-text">
+							Please provide us with your basic contact information.
+						</p>
+						<div class="form-rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div class="submit">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<p>Author: Michael Tabb<br>
+			<a href="mailto:mhtabb.6@gmail.com">mhtabb.6@gmail.com</a></p>
+		</footer>
+		</div>
+	</body>
+</html>
